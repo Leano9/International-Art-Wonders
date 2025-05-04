@@ -92,6 +92,7 @@ header {
     .image:hover img {
       transform: scale(1.1);
  }
+  
  
 h1 {
   font-family: 'Playfair Display', serif;
@@ -196,6 +197,21 @@ footer a:hover {
 }
 .gallery-dept img:hover{
 	 transform: scale(1.05);
+}
+.biography img{
+	
+	width:180px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+}
+.biography p{
+	font-size:15px;
+	color:#333;
+	line-height:1.6;
+	max-width:600px;
 }
 
 
